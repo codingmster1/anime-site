@@ -4,7 +4,7 @@ h1{
     margin: 0;
     padding:0;
     font-family: 'Cabin', sans-serif;
-    font-size: 80px;
+    font-size: 85px;
     color: white;
     height: 230px;
     
@@ -16,7 +16,7 @@ p
 {
     font-family: 'Cabin', sans-serif;
     color:white;
-    font-size:16px;
+    font-size:15px;
     line-height:2;
     height: 150px;
 }
@@ -73,6 +73,23 @@ p
 .col
 {
     line-height: 4;
-    flex-basis:50%;
+    flex-basis:45%;
 }
 
+button
+{
+
+width:180px;
+padding: 15px 0;
+font-size:16px;
+font-family: 'Cabin', sans-serif;
+cursor:pointer;
+border:0;
+border-radius:20px;
+
+}
+
+button:hover
+{
+    background-color: grey;
+}

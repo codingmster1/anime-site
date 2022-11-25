@@ -44,7 +44,7 @@ p
 .nav a:hover
 {
     color: rgb(184, 22, 22);
-    transform: rotate(1.5deg);
+    transform: rotate(-1.5deg);
     text-transform:uppercase;
 }
 

@@ -94,18 +94,54 @@ button:hover
     background-color: grey;
 }
 
-.card1
+.card
 {
+  
     
-    width:200px;
-    height:265px;
+    width:240px;
+    height:390px;
     display:inline-block;
     border-radius: 10px;
     padding: 15px 25px;
     box-sizing:border-box;
     cursor: pointer;
     margin: 10px 15px;
-    background-image: url('Berserkposter.jpg');
+    transition: transform 0.5s;
     background-position:center;
     background-size: cover;
+}
+
+.card1
+{
+    background-image: url('1998berserk.jpg');
+    font-size: 18px;
+}
+
+.card2
+{
+    background-image: url('bmovieposter.jpg');
+}
+
+.card3
+{
+    background-image: url('2016BerserkPoster.jpg');
+}
+
+.card4
+{
+    background-image: url('mangaberserkcover.jpg');
+}
+
+
+h5
+{
+    font-weight:bold;
+    font-size:20px;
+    color: white;
+    font-family:'Cabin', sans-serif;
+}
+
+.card:hover
+{
+    transform: translateY(-10px);
 }

@@ -109,17 +109,18 @@ button:hover
     transition: transform 0.5s;
     background-position:center;
     background-size: cover;
+    font-size: 20px;
 }
 
 .card1
 {
     background-image: url('1998berserk.jpg');
-    font-size: 18px;
+    
 }
 
 .card2
 {
-    background-image: url('bmovieposter.jpg');
+    background-image: url('moonberserk.jpg');
 }
 
 .card3
@@ -129,15 +130,15 @@ button:hover
 
 .card4
 {
-    background-image: url('mangaberserkcover.jpg');
+    background-image: url('berserk-volume-14.jpg');
 }
 
 
 h5
 {
     font-weight:bold;
-    font-size:20px;
-    color: white;
+    font-size:23px;
+    color: rgb(240, 239, 235);
     font-family:'Cabin', sans-serif;
 }
 
@@ -145,3 +146,4 @@ h5
 {
     transform: translateY(-10px);
 }
+

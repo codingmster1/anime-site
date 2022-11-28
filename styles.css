@@ -92,6 +92,7 @@ font-family: 'Cabin', sans-serif;
 cursor:pointer;
 border:0;
 border-radius:20px;
+margin-top: 20px;
 
 }
 
@@ -104,8 +105,8 @@ button:hover
 {
   
     
-    width:240px;
-    height:390px;
+    width:230px;
+    height:230px;
     display:inline-block;
     border-radius: 10px;
     padding: 15px 25px;
